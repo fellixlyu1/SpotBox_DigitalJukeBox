@@ -14,3 +14,6 @@ REDIRECT_URI=(your redirect uri here)
 <img width="1280" alt="Screen Shot 2023-08-29 at 11 01 28 AM" src="https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/05aba58f-1078-455b-9b52-a41af5abd40f">
 
 Once you've finished the following instructions, you may run the program and click on the link in the terminal with your IP address and the web app will appear!
+
+<img width="1277" alt="Screen Shot 2023-08-29 at 7 43 48 PM" src="https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/28b76c3a-6b8b-4a01-8a13-e1db60c4ee3c">
+
