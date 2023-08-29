@@ -9,7 +9,7 @@ h1 {
 }
 
 button {
-    background-color: #3498db;
+    background-color: #1DB954;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -18,7 +18,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #1DB954;
 }
 
 #results {
