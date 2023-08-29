@@ -1,13 +1,17 @@
 import spotipy
+from dotenv import load_dotenv
+import os
 from spotipy.oauth2 import SpotifyOAuth
 from flask import Flask, jsonify, render_template, request
 
-app = Flask(__name__)
+load_dotenv()
 
-username = "username"  # Use your spotify account username
-CLIENT_ID = "client_id"  # Create a developer portal through Spotify to create client_id
-CLIENT_SECRET = "client_secret"  # Create a developer portal through Spotify to create client_secret
-redirect_uri = "redirect_uri"  # Use a callback server, typically a localhost
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+username = os.getenv("USERNAME")
+redirect_uri = os.getenv("REDIRECT_URI")
+
+app = Flask(__name__)
 
 
 def get_track_uri(track_name):
