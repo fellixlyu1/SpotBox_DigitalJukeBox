@@ -45,9 +45,9 @@ def add_to_queue():
 
     if track_uri:
         sp.add_to_queue(track_uri)
-        return jsonify({"message": "Track added to queue"})
+        return str("Track added to queue")
     else:
-        return jsonify({"message": "Track not found or error in adding to queue"})
+        return str("Track not found or error in adding to queue")
 
 
 @app.route("/playback", methods=["GET"])

@@ -17,12 +17,22 @@ h1 {
     left: 539px;
 }
 
-#results {
-    color: white;
+h2 {
+    position: absolute;
+    font-family: "Noto Sans Linear A", sans-serif;
+    color: #191414;
+    font-size: 12px;
+    top: 310px;
+    left: 375px;
 }
 
-#playback {
-    color: white;
+h3 {
+    position: absolute;
+    font-family: "Noto Sans Linear A", sans-serif;
+    color: #191414;
+    font-size: 12px;
+    top: 288px;
+    left: 375px;
 }
 
 form[hx-post] {
@@ -44,8 +54,4 @@ button {
 
 button:hover {
     background-color: #1DB954;
-}
-
-div[hx-get="playback"] {
-    color: #ddd;
 }
