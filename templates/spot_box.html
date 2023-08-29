@@ -6,6 +6,7 @@
     <title>Welcome to SpotBox</title>
 </head>
 <body>
+<img src="../static/SpotBoxlogo.png" alt="SpotBox logo">
 <h1>SpotBox</h1>
 <form hx-post="/add_to_queue" hx-target="#results" hx-swap="outerHTML">
     <label>
@@ -13,7 +14,7 @@
     </label>
     <button type="submit">Add to Queue</button>
 </form>
-<div id="results"></div>
-<div id="playback" hx-get="/playback" hx-trigger="load" hx-swap="outerHTML"></div>
+<div class=results id="results"></div>
+<div class=playback id="playback" hx-get="/playback" hx-trigger="load" hx-swap="outerHTML"></div>
 </body>
 </html>

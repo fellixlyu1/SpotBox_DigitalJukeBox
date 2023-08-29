@@ -1,17 +1,42 @@
 body {
-    background-color: #444444;
+    background-color: #1DB954;
+}
+
+img {
+    position: absolute;
+    top: -35px;
+    left: 200px;
 }
 
 h1 {
+    position: absolute;
     font-family: "Century Gothic", serif;
-    font-size: x-large;
+    font-size: 60px;
     color: white;
+    top: 140px;
+    left: 539px;
+}
+
+#results {
+    color: white;
+}
+
+#playback {
+    color: white;
+}
+
+form[hx-post] {
+    position: absolute;
+    top: 250px;
+    left: 539px;
 }
 
 button {
     background-color: #1DB954;
+    font-family: "Noto Sans Linear A", sans-serif;
     color: white;
-    border: none;
+    border-width: 5px;
+    border-color: black;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -21,13 +46,6 @@ button:hover {
     background-color: #1DB954;
 }
 
-#results {
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #f7f7f7;
-}
-
-div[id="playback"] {
+div[hx-get="playback"] {
     color: #ddd;
 }
