@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="htmx">
+<head>
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="https://unpkg.com/htmx.org@1.5.0/dist/htmx.min.js"></script>
+    <title>Welcome to SpotBox</title>
+</head>
+<body>
+<h1>SpotBox</h1>
+<form hx-post="/add_to_queue" hx-target="#results" hx-swap="outerHTML">
+    <label>
+        <input type="text" name="query" placeholder="Search...">
+    </label>
+    <button type="submit">Add to Queue</button>
+</form>
+<div id="results"></div>
+<div id="playback" hx-get="/playback" hx-trigger="load" hx-swap="outerHTML"></div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: #444444;
+}
+
+h1 {
+    font-family: "Century Gothic", serif;
+    font-size: x-large;
+    color: white;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#results {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+div[id="playback"] {
+    color: #ddd;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="18d3655a-789a-49dc-816e-66b791898f78" name="DigitalJukeBox" url="http://localhost">
+        <fileTransfer mountedRoot="" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
