@@ -2,7 +2,7 @@ import spotipy
 from dotenv import load_dotenv
 import os
 from spotipy.oauth2 import SpotifyOAuth
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 
 load_dotenv()
 
@@ -32,7 +32,7 @@ def index():
     return render_template('spot_box.html')
 
 
-@app.route("/add_to_queue", methods=['POST'])
+@app.route("/add_to_queue", methods=['GET', 'POST'])
 def add_to_queue():
     track_name = request.form.get('query')
     scope = 'user-modify-playback-state'
@@ -45,7 +45,7 @@ def add_to_queue():
 
     if track_uri:
         sp.add_to_queue(track_uri)
-        return str("Track added to queue")
+        return redirect(index())
     else:
         return str("Track not found or error in adding to queue")
 
