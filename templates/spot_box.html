@@ -8,7 +8,7 @@
 <body>
 <img src="../static/SpotBoxlogo.png" alt="SpotBox logo">
 <h1>SpotBox</h1>
-<form hx-post="/add_to_queue" hx-target="#results" hx-swap="outerHTML">
+<form hx-post="/add_to_queue" hx-target="#results" hx-swap="outerHTML" hx-after-swap="location.reload()">
     <label>
         <input type="text" name="query" placeholder="Search...">
     </label>

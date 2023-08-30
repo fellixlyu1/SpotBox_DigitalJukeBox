@@ -2,7 +2,7 @@ import spotipy
 from dotenv import load_dotenv
 import os
 from spotipy.oauth2 import SpotifyOAuth
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, render_template, request
 
 load_dotenv()
 
