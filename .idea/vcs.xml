@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SpotBox" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/flask-htmx" vcs="Git" />
   </component>
 </project>
