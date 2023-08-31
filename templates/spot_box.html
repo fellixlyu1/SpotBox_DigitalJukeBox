@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="htmx">
+<html lang="en">
 <head>
     <link rel="stylesheet" href="../static/styles.css">
     <script src="https://unpkg.com/htmx.org@1.5.0/dist/htmx.min.js"></script>
@@ -12,7 +12,7 @@
     <label>
         <input type="text" name="query" placeholder="Search...">
     </label>
-    <button type="submit">Add to Queue</button>
+    <button onclick="window.setTimeout(function () {  window.location.reload();}, 3000)">Add to Queue</button>
 </form>
 <h2><div class=results id="results"></div></h2>
 <h3><div class=playback id="playback" hx-get="/playback" hx-trigger="load" hx-swap="outerHTML"></div></h3>
