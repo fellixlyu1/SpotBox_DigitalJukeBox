@@ -60,7 +60,7 @@ def current_playback():
     current_song = sp.current_user_playing_track()
     song = current_song["item"]
     artist = current_song["item"]["artists"][0]["name"]
-    return f"Current song: {artist} - {song['name']}"
+    return f"Current Track: {artist} - {song['name']}"
 
 
 if __name__ == '__main__':
