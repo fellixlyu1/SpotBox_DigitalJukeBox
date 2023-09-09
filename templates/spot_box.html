@@ -8,13 +8,17 @@
 <body>
 <img src="../static/SpotBoxlogo.png" alt="SpotBox logo">
 <h1>SpotBox</h1>
-<form hx-post="/add_to_queue" hx-target="#results" hx-swap="outerHTML" hx-after-swap="location.reload()">
+<form hx-post="/add_to_queue" hx-target="#results" hx-swap="outerHTML">
     <label>
-        <input type="text" name="query" placeholder="Search...">
+        <input type="text" name="track" placeholder="Track">
+        <input type="text" name="artist" placeholder="Artist">
     </label>
-    <button onclick="window.setTimeout(function () {  window.location.reload();}, 3000)">Add to Queue</button>
+    <button onclick="window.setTimeout(function () {  window.location.reload();}, 5000)">Add to Queue</button>
 </form>
-<h2><div class=results id="results"></div></h2>
-<h3><div class=playback id="playback" hx-get="/playback" hx-trigger="load" hx-swap="outerHTML"></div></h3>
+<form hx-get="/playback" hx-target="#playback" hx-swap="outerHTML">
+    <button onclick="window.setTimeout(function () {  window.location.reload();}, 5000)">Current Track</button>
+</form>
+<h3><div class=results id="results"></div></h3>
+<h3><div class=playback id="playback"></div></h3>
 </body>
 </html>
