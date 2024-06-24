@@ -23,6 +23,8 @@
 ![Screenshot 2024-06-24 11 29 43 AM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/dfc2bb7c-064f-4c41-87b9-d328e31c7a03)
 <p></p>
 
+<h3><strong>Find The Client ID and Client Secret</strong></h3>
+
 <p>Scroll down and you'll find a section for "Redirect URI". You can use your localhost to callback the program. By this point, you have your Spotify account username, Client ID, Client Secret, and the redirect URI. Create a .env file and fill out the information in the following format:
 USERNAME=(your username here)
 CLIENT_ID=(your client id here)
