@@ -18,7 +18,7 @@
 <p>To begin, you'll need a Spotify account, a Spotify developer account, and a safe Wi-Fi connection. To create a developer account, go to: developer.spotify.com. Once you've created your Developer account, go to the "Dashboard" and click the "Create App" button. Once you've created your app, go to the settings and copy the "Client ID" and the "Client Secret" at the top.</p>
 
 ![Screenshot 2024-06-24 11 29 10 AM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/83c52db4-0761-4edb-86bc-5d813577d876)
-<p>In this example, you click on the "Create App" button.</p>
+
 
 ![Screenshot 2024-06-24 11 29 43 AM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/dfc2bb7c-064f-4c41-87b9-d328e31c7a03)
 <p></p>
