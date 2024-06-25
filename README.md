@@ -25,12 +25,44 @@
 
 <h3><strong>Find The Client ID and Client Secret</strong></h3>
 
-<p>Scroll down and you'll find a section for "Redirect URI". You can use your localhost to callback the program. By this point, you have your Spotify account username, Client ID, Client Secret, and the redirect URI. Create a .env file and fill out the information in the following format:
-USERNAME=(your username here)
-CLIENT_ID=(your client id here)
-CLIENT_SECRET=(your client secret here)
-REDIRECT_URI=(your redirect uri here)</p>
+<p>Scroll down and you'll find a section for "Redirect URI". You can use your localhost to callback the program. By this point, you have your Spotify account username, Client ID, Client Secret, and the redirect URI. 
 
 ![Screenshot 2024-06-24 11 34 28 AM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/e01a91ad-0dc1-4629-8008-1258df9b5f13)
 
+Create a .env file and fill out the information in the following format:</p>
+<p>USERNAME=(your username here)</p>
+<p>CLIENT_ID=(your client id here)</p>
+<p>CLIENT_SECRET=(your client secret here)</p>
+<p>REDIRECT_URI=(your redirect uri here)</p>
+
+![Screenshot 2024-06-24 2 50 30 PM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/008c79d4-6716-4cb7-b744-e4e7834d9a21)
+
 <p>Once you've finished the following instructions, you may run the program and click on the link in the terminal with your IP address and the web app will appear!</p>
+
+<h2><strong>Dependencies Required for SpotBox</strong></h2>
+
+<p>There are certain dependencies you as a developer or a tester will have to consider installing. In the terminal of your IDE, you'll need to install: </p>
+<ul>- pip</ul>
+<ul>- flask</ul>
+<ul>- gunicorn</ul>
+
+<h2><strong>Test It Out!</strong></h2>
+
+<p>Before you even run the program and start adding songs, you'll need to use Spotify and play either one of your playlists or any song of choice. Once that is done, your SpotBox app should start working</p>
+
+<h4><strong>Checking Out the Current Track</strong></h4>
+
+![Screenshot 2024-06-24 2 59 51 PM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/dfe84e5a-2df0-4b6f-b36c-50b388852f91)
+
+![Screenshot 2024-06-24 3 00 14 PM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/130143c2-9fe2-46de-9c1a-535ef6db2a7d)
+
+![Screenshot_20240624-150051_Spotify](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/7d35776c-3f2b-4206-9df5-ed868b92cdb8)
+
+<h4><strong>Adding a Track to the Queue</strong></h4>
+
+![Screenshot 2024-06-24 3 00 27 PM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/6773cd58-fcb5-49ab-a4c3-4df7e1f75294)
+
+![Screenshot 2024-06-24 3 00 33 PM](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/5ae58af1-a565-4b4b-8903-e6bf17568ff6)
+
+![Screenshot_20240624-150103_Spotify](https://github.com/fellixlyu1/SpotBox_DigitalJukeBox/assets/116593040/c65b8627-b6bc-420c-974f-c6f15a9afb4c)
+
